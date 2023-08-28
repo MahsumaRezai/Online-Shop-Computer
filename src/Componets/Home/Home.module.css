@@ -1,0 +1,25 @@
+.home {
+  background:antiquewhite;
+  height: 950px;
+  
+}
+.title {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: black
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 100px;
+    margin: auto;
+
+}
+.image img {
+    width:700px;
+    margin: auto;
+}
