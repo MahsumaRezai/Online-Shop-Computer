@@ -1,13 +1,13 @@
-
-
+import { Fragment } from "react";
+import Head from "./Componets/Head/Head";
 
 function App() {
-
-
-
     return (
-        <h1>hello</h1>
+        < Fragment >
+            <Head />
+        </Fragment >
     )
+
 }
 
 export default App;
