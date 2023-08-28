@@ -13,7 +13,6 @@ const Head = (props) => {
             </div>
 
 
-
         </div>
 
     </Fragment>

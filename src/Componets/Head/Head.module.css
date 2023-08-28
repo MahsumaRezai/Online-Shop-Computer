@@ -19,9 +19,28 @@ img {
 }
 .title {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     font-family: 'Baloo Chettan', cursive;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color: whitesmoke
+}
+
+.center {
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 20px solid  black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -50px;
+    font-family: 'Baloo Chettan', cursive;
+
+
 }
