@@ -33,7 +33,7 @@ img {
     border-radius: 100px;
     width: 100px;
     height: 100px;
-    border: 20px solid  black;
+    border: 20px solid  #2d2c2c;;
     display: flex;
     flex-direction: row;
     justify-content: center;
