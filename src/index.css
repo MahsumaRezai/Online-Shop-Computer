@@ -9,16 +9,3 @@ body {
   margin: 0;
   font-family:  sans-serif;
 }
-.btn {
-  width: 200px;
-  height: 50px;
-  background:#2e2d2d;
-  border: unset;
-  margin: auto;
-  margin-top:50px;
-  font-size: 18px;
-  color: white;
-}
-.btn button{
-  margin: auto
-}
