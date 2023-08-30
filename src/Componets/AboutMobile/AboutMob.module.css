@@ -4,13 +4,26 @@
     justify-content: center;
     align-items: center;
 }
-
+@media screen and (max-width:1024px){
+    .about {
+        flex-direction: column
+    }
+}
 .text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;  
-    gap: 20px
+    gap: 20px;
+    padding: 30px
+}
+@media screen and (max-width:1024px){
+    .text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px
+    }
 }
 .title  {
     font-size: 50px;
@@ -27,15 +40,21 @@
     height: auto;
 }
 .cartOne {
-    background: red;
     width: 100px;
     height: 100px;
+    border:  2px solid red;
 }
 .cartTwo {
-    background: gainsboro;
+    border:  2px solid gainsboro;
     width: 100px;
     height: 100px;
 
+}
+.cartOne:hover{
+    background: rebeccapurple
+}
+.cartTwo:hover{
+    background: red
 }
 .warp {
     display: flex;
