@@ -6,7 +6,7 @@ import img from '../img/about.png'
 
 const Backdrop = (props) => {
     return (
-        <div className={classes.back}></div>
+        <div className={classes.back} onClick={props.onhide}></div>
 
     )
 }
@@ -29,7 +29,7 @@ const Moduloerly = (props) => {
 const Module = (props) => {
     return (
         <Fragment>
-            {Reactdom.createPortal(<Backdrop />, document.getElementById("backdrop-root"))}
+            {Reactdom.createPortal(<Backdrop  onhide = { props.onhide }/ >, document.getElementById("backdrop-root"))}
             {Reactdom.createPortal(<Moduloerly />, document.getElementById("overlay-root"))}
 
         </Fragment>
