@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import classes from './Product.module.css';
 import ProductText from "./ProductText";
 import Productimg from "./Productimg";
+import ProductImgTwo from "./ProductImgTwo";
 
 const Product = (props) => {
     return (
@@ -9,6 +10,7 @@ const Product = (props) => {
             <div className={classes.roduct}>
                 <ProductText />
                 <Productimg />
+                <ProductImgTwo />
 
             </div>
 

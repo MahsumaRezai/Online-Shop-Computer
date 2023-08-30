@@ -1,7 +1,7 @@
 
 .warp{
     width: 100%;
-    background: #20c997;
+    background: rebeccapurple;
 }
 img {    
     max-width: 100%;
@@ -23,7 +23,13 @@ img {
     font-family: 'Baloo Chettan', cursive;
     font-size: 60px;
     font-weight: bold;
-    color: whitesmoke
+    color:white
+}
+@media screen and (max-width:900px){
+    .title{
+        font-size:inherit
+    }
+
 }
 
 .center {
