@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    gap: 20px
+}
+.title  {
+    font-size: 50px;
+    font-family: 'Baloo Chettan', cursive;
+
+
+}
+.text p {
+    line-height: 1.625;
+    font-size: 18px;
+}
+.img  {
+    max-width: 100%;
+    height: auto;
+}
+.cartOne {
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+.cartTwo {
+    background: gainsboro;
+    width: 100px;
+    height: 100px;
+
+}
+.warp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    gap: 20px
+}

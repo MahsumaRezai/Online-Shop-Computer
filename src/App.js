@@ -4,6 +4,7 @@ import Headimg from "./Componets/Head/Headimg";
 import About from "./Componets/About/About";
 import Product from "./Componets/Product/Product";
 import Module from './Componets/UI/Module'
+import AboutMob from "./Componets/AboutMobile/AboutMobile";
 
 function App(props) {
     const [show, SetShow] = useState(false);
@@ -21,6 +22,7 @@ function App(props) {
             <About />
             <Product onShow={Cart} />
             {show && <Module onhide={Hide} />}
+            <AboutMob />
 
         </Fragment >
     )
