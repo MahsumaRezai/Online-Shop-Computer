@@ -9,7 +9,7 @@ const Head = (props) => {
             <div className={classes.content}>
                 <div>
                     <h1 className={classes.title}>Computer and<br></br>
-                        laptop shop</h1>
+                        Mobiles shop</h1>
                     <Button>Buy Now</Button>
 
                 </div>

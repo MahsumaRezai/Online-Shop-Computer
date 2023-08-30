@@ -10,7 +10,7 @@ const About = (props) => {
             <div className={classes.about}>
                 <AboutText />
                 <Aboutimg />
-                <Button>Read More</Button>
+                <Button onClick={props.onClick}>Read More</Button>
 
             </div>
         </Fragment>

@@ -6,7 +6,7 @@ const Button = (props) => {
     return (
         <Fragment>
             <div className={classes.button}>
-                <button className={classes.btn}>{props.children}</button>
+                <button className={classes.btn} onClick={props.onClick}>{props.children}</button>
 
             </div>
         </Fragment>
