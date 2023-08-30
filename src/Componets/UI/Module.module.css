@@ -22,8 +22,16 @@
     width: 30%;
     z-index: 100;
     overflow: hidden;
+    padding: 40px
   }
   .img {
       width: 200px;
       height: 200px;
+  }
+  .paragh{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px
   }

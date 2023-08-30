@@ -13,9 +13,12 @@ const Backdrop = (props) => {
 const Moduloerly = (props) => {
     return (<Card className={classes.modal}>
         <div>
-            <div>
+            <div className={classes.paragh}>
                 <img src={img} alt="" className={classes.img} />
-                <p></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+     Earum odio aspernatur omnis libero delectus doloremque tenetur
+     ipsum error! Architecto officiis nostrum blanditiis facere sequi
+      eos repellat deserunt impedit soluta magni!</p>
             </div>
 
         </div>
