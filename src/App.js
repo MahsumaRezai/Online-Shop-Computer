@@ -6,6 +6,7 @@ import Product from "./Componets/Product/Product";
 import Module from './Componets/UI/Module';
 import AboutMob from "./Componets/AboutMobile/AboutMobile";
 import Modules from './Componets/About/Module'
+import Form from "./Componets/form/Form";
 
 function App(props) {
     const [show, SetShow] = useState(false);
@@ -21,7 +22,7 @@ function App(props) {
     const CartIsShow = (props) => {
         SetShowCart(true)
     }
-    const CartHide=(props)=>{
+    const CartHide = (props) => {
         SetShowCart(false)
     }
     return (
@@ -34,6 +35,7 @@ function App(props) {
             <Product onShow={Cart} />
             {show && <Module onhide={Hide} />}
             <AboutMob />
+            <Form />
 
         </Fragment >
     )
