@@ -7,6 +7,7 @@ import Module from './Componets/UI/Module';
 import AboutMob from "./Componets/AboutMobile/AboutMobile";
 import Modules from './Componets/About/Module'
 import Form from "./Componets/form/Form";
+import Footer from "./Componets/Footer/Footer";
 
 function App(props) {
     const [show, SetShow] = useState(false);
@@ -36,6 +37,7 @@ function App(props) {
             {show && <Module onhide={Hide} />}
             <AboutMob />
             <Form />
+            <Footer/>
 
         </Fragment >
     )

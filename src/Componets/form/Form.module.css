@@ -36,18 +36,25 @@
 }
 .btn {
     background:  rebeccapurple;
-    width: 200px;
     height: 50px;
     margin: auto;
     border: none;
     margin: auto;
-    width: 250px;
     height: 50px;
     color: white;
     font-size: 20px;
     font-family: 'Baloo Chettan', cursive;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
 }
