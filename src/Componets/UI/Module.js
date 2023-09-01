@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Reactdom from 'react-dom';
 import Card from './Card'
 import classes from './Module.module.css';
-import img from '../img/about.png'
+import img from '../img/imgOne.jpg'
 
 const Backdrop = (props) => {
     return (

@@ -1,7 +1,9 @@
-import classes from './Footer.module.css'
+import classes from './Footer.module.css';
+
 const Footer = (props) => {
     return (
         <div className={classes.footer}>
+
 
         </div>
     )
