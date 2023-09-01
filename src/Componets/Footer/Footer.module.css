@@ -1,5 +1,32 @@
 .footer{
     background: rebeccapurple;
     width: 100%;
-    height: 300px;
+   font-family: 'Baloo Chettan', cursive;
+
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+   font-family: 'Baloo Chettan', cursive;
+
+}
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px
+}
+.warp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+   
+}
+.warp p {
+    color: white;
+    font-size: 20px
 }
