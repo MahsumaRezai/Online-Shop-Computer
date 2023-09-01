@@ -8,6 +8,7 @@ import AboutMob from "./Componets/AboutMobile/AboutMobile";
 import Modules from './Componets/About/Module'
 import Form from "./Componets/form/Form";
 import Footer from "./Componets/Footer/Footer";
+import AboutImg from "./Componets/AboutMobile/AboutImg";
 
 function App(props) {
     const [show, SetShow] = useState(false);
@@ -36,8 +37,9 @@ function App(props) {
             <Product onShow={Cart} />
             {show && <Module onhide={Hide} />}
             <AboutMob />
+            <AboutImg />
             <Form />
-            <Footer/>
+            <Footer />
 
         </Fragment >
     )
